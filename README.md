@@ -203,6 +203,6 @@ ORDER BY records DESC;
 * **Ahmed Khaled**
 * **Abdullah Ayman**
 * **Ahmed Alaa**
-* **Eng/** **Mahmoud Saleh**
+* **Mahmoud Saleh**
 * **Karim Hany**
 * **Abdullah Shaban**
