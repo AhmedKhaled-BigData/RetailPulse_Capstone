@@ -123,11 +123,11 @@ docker compose stop kafka kafkamanager
 **Username : admin**
 **Password : admin**
 
-![Hue login](assets/screenshots/Hue_Table_customer.png)
+**Hue Table Customer**
+![Hue Table Customer](assets/screenshots/Hue_Table_customer.png)
 
-**After click in Sign In**
-
-![Hue after login](assets/screenshots/Hue_Query2.png)
+**Hue Query 2**
+![Hue Query 2](assets/screenshots/Hue_Query2.png)
 
 **Now you can use Hive**
 
@@ -137,18 +137,19 @@ CREATE TABLE IF NOT EXISTS users(id INT, name VARCHAR(45), website VARCHAR(45));
 
 INSERT INTO users VALUES(1,"mahmoud zakaria","www.mahmoud.ma");
 ```
-![Hue query](assets/screenshots/Hue_Query1.png)
+**Hue Query 1**
+![Hue Query 1](assets/screenshots/Hue_Query1.png)
 
 - After insert data you can execute select query.
 
 ```sql=
 SELECT *FROM users;
 ```
-![Hue query result](assets/screenshots/Hue_Query_HIstory.png)
+**Hue Query History**
+![Hue Query History](assets/screenshots/Hue_Query_HIstory.png)
 
-* Hue Dashboard
-
-![Hue dashboard](assets/screenshots/Hue_gold_layer.png)
+**Hue Dashboard**
+![Hue Dashboard](assets/screenshots/Hue_gold_layer.png)
 
 ## kafka Manager
 - **URL** : http://localhost:9000/
@@ -181,6 +182,7 @@ SELECT *FROM users;
 ## Metabase
 - **URL** : http://localhost:3000/
 
+**Metabase Dashboard**
 ![Metabase dashboard](assets/screenshots/Metabase_dashbord.png)
 ---
 ## Created by
