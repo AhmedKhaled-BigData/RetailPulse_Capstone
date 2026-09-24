@@ -87,35 +87,35 @@ docker compose stop kafka kafkamanager
 > ⚠️ **It takes some time to launch and configure all the images.**
 
 ## Screenshots
-
-> Replace the sample files below with your own screenshots and keep the same names.
-> Put your images in the folder: [assets/screenshots](assets/screenshots)
-
 ### **Namenode**
 - **URL** : http://localhost:50070/
 
-![Namenode overview](assets/screenshots/namenode-overview.png)
+![Namenode overview](assets/screenshots/namenode1.png)
 
 > 👁️ You can see here 3 Live Nodes
 
-![Namenode live nodes](assets/screenshots/namenode-live-nodes.png)
-![Namenode HDFS](assets/screenshots/namenode-hdfs.png)
-![Namenode dashboard](assets/screenshots/namenode-dashboard.png)
+![Namenode live nodes](assets/screenshots/namenode%202.png)
+
+![Namenode overview 2](assets/screenshots/namenode3.png)
+
+![Namenode overview 3](assets/screenshots/namenode4.png)
+
+![Namenode overview 4](assets/screenshots/namenode5.png)
 
 ### **Datanode 1**
 - **URL** : http://localhost:50075/
 
-![Datanode 1](assets/screenshots/datanode1.png)
+![](https://i.imgur.com/SgBYFNO.png)
 
 ### **Datanode 2**
 - **URL** : http://localhost:50080/
 
-![Datanode 2](assets/screenshots/datanode2.png)
+![](https://i.imgur.com/AEaSjTH.png)
 
 ### **Datanode 3**
 - **URL** : http://localhost:50085/
 
-![Datanode 3](assets/screenshots/datanode3.png)
+![](https://i.imgur.com/uxjs1nf.png)
 
 ### **Hue**
 - **URL** : http://localhost:8888/
@@ -123,11 +123,11 @@ docker compose stop kafka kafkamanager
 **Username : admin**
 **Password : admin**
 
-![Hue login](assets/screenshots/hue-login.png)
+![Hue login](assets/screenshots/Hue_Table_customer.png)
 
 **After click in Sign In**
 
-![Hue after login](assets/screenshots/hue-after-login.png)
+![Hue after login](assets/screenshots/Hue_Query2.png)
 
 **Now you can use Hive**
 
@@ -137,39 +137,40 @@ CREATE TABLE IF NOT EXISTS users(id INT, name VARCHAR(45), website VARCHAR(45));
 
 INSERT INTO users VALUES(1,"mahmoud zakaria","www.mahmoud.ma");
 ```
-![Hue query](assets/screenshots/hue-query.png)
+![Hue query](assets/screenshots/Hue_Query1.png)
 
 - After insert data you can execute select query.
 
 ```sql=
 SELECT *FROM users;
 ```
-![Hue query result](assets/screenshots/hue-query-result.png)
+![Hue query result](assets/screenshots/Hue_Query_HIstory.png)
 
 * Hue Dashboard
 
-![Hue dashboard](assets/screenshots/hue-dashboard.png)
+![Hue dashboard](assets/screenshots/Hue_gold_layer.png)
 
-## Kafka Manager
+## kafka Manager
 - **URL** : http://localhost:9000/
 
-![Kafka Manager](assets/screenshots/kafka-manager.png)
+![](https://i.imgur.com/ODSOhp1.png)
 
 ## Cluster Overview
 - **URL** : http://localhost:8080/
 
-![Cluster Overview](assets/screenshots/cluster-overview.png)
+![](https://i.imgur.com/71L8GJH.png)
 
 ## Hbase
 - **URL** : http://localhost:16010/
 
-![HBase overview](assets/screenshots/hbase-overview.png)
-![HBase table](assets/screenshots/hbase-table.png)
+![](https://i.imgur.com/QXix2Za.png)
+
+![](https://i.imgur.com/8YdxLxu.png)
 
 ## Jupyter
 - **URL** : http://localhost:8889/
 
-![Jupyter](assets/screenshots/jupyter.png)
+![Jupyter](assets/screenshots/Jupyter.png)
 
 ## Flink
 - **URL** : http://localhost:8082/
@@ -179,6 +180,8 @@ SELECT *FROM users;
 
 ## Metabase
 - **URL** : http://localhost:3000/
+
+![Metabase dashboard](assets/screenshots/Metabase_dashbord.png)
 ---
 ## Created by
 
