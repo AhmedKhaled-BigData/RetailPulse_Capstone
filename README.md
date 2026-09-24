@@ -138,7 +138,7 @@ CREATE TABLE IF NOT EXISTS users(id INT, name VARCHAR(45), website VARCHAR(45));
 INSERT INTO users VALUES(1,"mahmoud zakaria","www.mahmoud.ma");
 ```
 **Hue Query 1**
-![Hue Query 1](assets/screenshots/Hue_Query1.png)
+![Hue Query 1](assets/screenshots/Hue%20_Query1.png)
 
 - After insert data you can execute select query.
 
