@@ -200,5 +200,9 @@ ORDER BY records DESC;
 ---
 ## Created by
 
-* 🇲🇦 **Mahmoud Zakaria** 
-* 🌐 [www.mahmoud.ma](https://www.mahmoud.ma/)
+* **Ahmed Khaled**
+* **Abdullah Ayman**
+* **Ahmed Alaa**
+* **Mahmoud Saleh**
+* **Karim Hany**
+* **Abdullah Shaban**
