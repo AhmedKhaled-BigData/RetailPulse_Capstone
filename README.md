@@ -87,37 +87,35 @@ docker compose stop kafka kafkamanager
 > ⚠️ **It takes some time to launch and configure all the images.**
 
 ## Screenshots
+
+> Replace the sample files below with your own screenshots and keep the same names.
+> Put your images in the folder: [assets/screenshots](assets/screenshots)
+
 ### **Namenode**
 - **URL** : http://localhost:50070/
 
-![](https://i.imgur.com/0suoN0k.png)
+![Namenode overview](assets/screenshots/namenode-overview.png)
 
+> 👁️ You can see here 3 Live Nodes
 
-> 👁️ You can see here 3 Live Nodes**
-
-![](https://i.imgur.com/Hhf9K3A.png)
-
-![](https://i.imgur.com/aZFGqB2.png)
-
-![](https://i.imgur.com/2O98bq8.png)
-
+![Namenode live nodes](assets/screenshots/namenode-live-nodes.png)
+![Namenode HDFS](assets/screenshots/namenode-hdfs.png)
+![Namenode dashboard](assets/screenshots/namenode-dashboard.png)
 
 ### **Datanode 1**
 - **URL** : http://localhost:50075/
 
-![](https://i.imgur.com/SgBYFNO.png)
-
+![Datanode 1](assets/screenshots/datanode1.png)
 
 ### **Datanode 2**
 - **URL** : http://localhost:50080/
 
-![](https://i.imgur.com/AEaSjTH.png)
-
+![Datanode 2](assets/screenshots/datanode2.png)
 
 ### **Datanode 3**
 - **URL** : http://localhost:50085/
 
-![](https://i.imgur.com/uxjs1nf.png)
+![Datanode 3](assets/screenshots/datanode3.png)
 
 ### **Hue**
 - **URL** : http://localhost:8888/
@@ -125,13 +123,11 @@ docker compose stop kafka kafkamanager
 **Username : admin**
 **Password : admin**
 
-![](https://i.imgur.com/XX7tyum.png)
+![Hue login](assets/screenshots/hue-login.png)
 
 **After click in Sign In**
 
-
-![](https://i.imgur.com/gjrohHE.png)
-
+![Hue after login](assets/screenshots/hue-after-login.png)
 
 **Now you can use Hive**
 
@@ -141,43 +137,39 @@ CREATE TABLE IF NOT EXISTS users(id INT, name VARCHAR(45), website VARCHAR(45));
 
 INSERT INTO users VALUES(1,"mahmoud zakaria","www.mahmoud.ma");
 ```
-![](https://i.imgur.com/CtcgKOx.png)
+![Hue query](assets/screenshots/hue-query.png)
 
-- After insert data you can execute select query. 
+- After insert data you can execute select query.
 
 ```sql=
 SELECT *FROM users;
 ```
-![](https://i.imgur.com/wFId19M.png)
+![Hue query result](assets/screenshots/hue-query-result.png)
 
 * Hue Dashboard
 
-![](https://i.imgur.com/mPxPSwQ.png)
+![Hue dashboard](assets/screenshots/hue-dashboard.png)
 
-
-## kafka Manager
+## Kafka Manager
 - **URL** : http://localhost:9000/
 
-
-![](https://i.imgur.com/ODSOhp1.png)
+![Kafka Manager](assets/screenshots/kafka-manager.png)
 
 ## Cluster Overview
 - **URL** : http://localhost:8080/
 
-![](https://i.imgur.com/71L8GJH.png)
+![Cluster Overview](assets/screenshots/cluster-overview.png)
 
 ## Hbase
 - **URL** : http://localhost:16010/
 
-![](https://i.imgur.com/QXix2Za.png)
-
-![](https://i.imgur.com/8YdxLxu.png)
-
+![HBase overview](assets/screenshots/hbase-overview.png)
+![HBase table](assets/screenshots/hbase-table.png)
 
 ## Jupyter
 - **URL** : http://localhost:8889/
 
-![](https://i.imgur.com/b7zOYtX.png)
+![Jupyter](assets/screenshots/jupyter.png)
 
 ## Flink
 - **URL** : http://localhost:8082/
