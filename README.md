@@ -132,19 +132,28 @@ docker compose stop kafka kafkamanager
 **Now you can use Hive**
 
  - Simple Query for test
-```sql=
-CREATE TABLE IF NOT EXISTS users(id INT, name VARCHAR(45), website VARCHAR(45));
 
-INSERT INTO users VALUES(1,"mahmoud zakaria","www.mahmoud.ma");
+**Query 2**
+```sql
+SELECT customer_id, COUNT(*) AS records
+FROM gold.dim_customer
+GROUP BY customer_id
+ORDER BY records DESC;
 ```
+
+**Query 1**
+```sql
+SELECT product_id, COUNT(*) AS records
+FROM gold.dim_product
+GROUP BY product_id
+ORDER BY records DESC;
+```
+
 **Hue Query 1**
 ![Hue Query 1](assets/screenshots/Hue%20_Query1.png)
 
 - After insert data you can execute select query.
 
-```sql=
-SELECT *FROM users;
-```
 **Hue Query History**
 ![Hue Query History](assets/screenshots/Hue_Query_HIstory.png)
 
