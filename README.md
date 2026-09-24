@@ -131,9 +131,11 @@ docker compose stop kafka kafkamanager
 
 **Now you can use Hive**
 
- - Simple Query for test
+### Query Examples
 
-**Query 2**
+**Query 2: Top customers by frequency**
+This query counts how many records exist for each customer and sorts them from highest to lowest frequency.
+
 ```sql
 SELECT customer_id, COUNT(*) AS records
 FROM gold.dim_customer
@@ -141,7 +143,9 @@ GROUP BY customer_id
 ORDER BY records DESC;
 ```
 
-**Query 1**
+**Query 1: Top products by frequency**
+This query counts how many records exist for each product and ranks them by the most frequent items.
+
 ```sql
 SELECT product_id, COUNT(*) AS records
 FROM gold.dim_product
