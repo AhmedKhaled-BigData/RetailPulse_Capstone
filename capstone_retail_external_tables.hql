@@ -13,7 +13,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS customers (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/customers';
+LOCATION '/user/hadoop/bronze/customers';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS fulfillment_events (
     fulfillment_event_id BIGINT,
@@ -26,7 +26,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS fulfillment_events (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/fulfillment_events';
+LOCATION '/user/hadoop/bronze/fulfillment_events';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS inventory_snapshots (
     inventory_snapshot_id BIGINT,
@@ -39,7 +39,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS inventory_snapshots (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/inventory_snapshots';
+LOCATION '/user/hadoop/bronze/inventory_snapshots';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS order_items (
     order_item_id BIGINT,
@@ -53,7 +53,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS order_items (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/order_items';
+LOCATION '/user/hadoop/bronze/order_items';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS orders (
     order_id BIGINT,
@@ -68,7 +68,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS orders (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/orders';
+LOCATION '/user/hadoop/bronze/orders';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS payments (
     payment_id BIGINT,
@@ -82,7 +82,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS payments (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/payments';
+LOCATION '/user/hadoop/bronze/payments';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS products (
     product_id INT,
@@ -96,7 +96,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS products (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/products';
+LOCATION '/user/hadoop/bronze/products';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS stores (
     store_id INT,
@@ -108,4 +108,4 @@ CREATE EXTERNAL TABLE IF NOT EXISTS stores (
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/sqoop/stores';
+LOCATION '/user/hadoop/bronze/stores';
