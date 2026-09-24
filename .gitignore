@@ -1,34 +1,9 @@
-# Docker service data and runtime state
-/base/hdfs/
-/base/kafka/
-/base/metabase/data/
-/base/mongo/db/
-/base/mongo/configdb/
-/base/mysql/data/
-/base/postgresql/
-/base/zookeeper/
-
-# Notebook-generated data
-/base/notebooks/spark-warehouse/
-/base/notebooks/.ipynb_checkpoints/
-/base/notebooks/*.ipynb
-**/.ipynb_checkpoints/
-
-# Container database and broker files
-*.db
-*.db-*
-*.ibd
-*.frm
-*.MYD
-*.MYI
-*.index
-*.timeindex
-*.checkpoint
-*.offsets
-
 # Python caches
 __pycache__/
 .pytest_cache/
+
+# Notebook-generated data
+**/.ipynb_checkpoints/
 
 # Runtime files
 *.log
@@ -44,6 +19,8 @@ __pycache__/
 !.env.example
 .idea/
 .vscode/
+
+# Project-specific local artifacts
 base/flume/lab_data/*
 base/flink/lab.py
 base/flink/stream_simulator.py
