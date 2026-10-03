@@ -203,12 +203,7 @@ ORDER BY records DESC;
 * **Ahmed Khaled**
 * **Abdullah Ayman**
 * **Ahmed Alaa**
-<<<<<<< HEAD
 * **Mahmoud Saleh**
 * **Karim Hany**
 * **Abdullah Shaban**
-=======
-* **Eng/** **Mahmoud Saleh**
-* **Karim Hany**
-* **Abdullah Shaban**
->>>>>>> 85b2e8c (Update README and project files)
+* **Youusef Mahmoud ElToor**
